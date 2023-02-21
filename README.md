@@ -47,7 +47,7 @@ On the first try, I was only able to reach an accuracy score of 72%, while in th
 
 
 * What steps did you take to try and increase model performance?
-.
+For the optimization model I decided to use the NAME variable within the model as an input variable. For NAME input variable, I had to bin components of the variable as "Other" in order to flatten the density components.
 
 
 ---
@@ -57,7 +57,7 @@ On the first try, I was only able to reach an accuracy score of 72%, while in th
 
 * Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
 
-.
+The model achieve the desired accuracy score above 75% by employing and binning the NAME variable. With more time it could be possible to test the importance of other input variables and how much does the model improve.
 
 
 
